@@ -3,6 +3,8 @@
 #include "../JuceLibraryCode/JuceHeader.h"
 #include "RingBuffer.h"
 
+using namespace juce::gl;
+
 class Oscilloscope2D :  public Component,
                         public OpenGLRenderer
 {
